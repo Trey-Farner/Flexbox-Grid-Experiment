@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    height: 700px;
+    border: 8px solid black;
+    display: flex;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    background: dodgerblue;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}
