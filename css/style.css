@@ -2,16 +2,21 @@
     box-sizing: border-box;
 }
 
+main {
+
+}
+
 .container {
     width: 90%;
-    height: 700px;
     border: 8px solid black;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
     background: dodgerblue;
-    padding: 15px;
-    width: 150px;
+    padding: 20px 26px;
     text-align: center;
 }

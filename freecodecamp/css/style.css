@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+[class^="box"] {
+    background-color: skyblue;
+    display: grid;
+    place-items: center;
+    box-shadow: 12px 12px 12px #333;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.box1{
+    grid-column: 1/10;
+}
+
+.box2{
+    grid-area: ;
+}
+
+.box3{
+    grid-area: ;
+}
